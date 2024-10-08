@@ -1,0 +1,10 @@
+<div id="calcular-frete" class="frete-calcular" calcular-frete-produto>
+					<label>Calcular Frete:</label>
+					<div class="box-shipping">
+						<input type="text" name="iptCEP" id="iptCEP" value="" tabindex="1" placeholder="00000-000" data-cep data-id-produto="{$produto.id}" class="cep textbox form-control"/>
+						<button type="submit" id="calcular-ftre-btn" class="btn-frt" value=">" calcular-frete></button>
+					</div>
+					<div class="produto-lista-fretes">
+						<ul></ul>
+					</div>
+				</div>
